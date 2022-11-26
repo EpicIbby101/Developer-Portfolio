@@ -4,6 +4,9 @@ import Footer from "./components/Footer"
 import Contact from "./components/Contact"
 import Portfolio from "./components/Portfolio"
 import Timeline from "./components/Timeline"
+import Navbar from "./components/Navbar"
+
+
 
 
 
@@ -69,11 +72,13 @@ function App() {
     <button
       type="button"
       onClick={handleThemeSwitch}
-      className="fixed p-2 z-10 right-20 top-4 bg-violet-300 dark:bg-orange-300 text-lg rounded-md">
+      className="fixed p-2 z-40 right-6 top-3 bg-violet-300 dark:bg-orange-300 text-lg rounded-md">
         {theme === 'dark' ? sun : moon}
     </button>
-    <div className="bg-white dark:bg-stone-800 dark:text-stone-300 text-stone-900 min-h-screen font-inter">
+    <div className="bg-white dark:bg-stone-800 dark:text-stone-300 text-stone-900 min-h-full font-inter">
+	<Navbar />
       <div className="max-w-5xl w-11/12 mx-auto">
+		
         <Intro />
         <Portfolio />
         <Timeline />
