@@ -12,7 +12,7 @@ const Navbar = () => {
           Home
         </a>
         <a
-          href=""
+          href="/About"
           className="mr-5 hover:opacity-80 font-semibold border-b-4 border-transparent hover:border-blue-600"
         >
           About

@@ -7,6 +7,7 @@ import Timeline from "./components/Timeline";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import CV from "./components/CV";
+import AboutMe from "./components/About";
 
 function App() {
   const [theme, setTheme] = useState(null);
@@ -92,6 +93,14 @@ function App() {
 			  <Route path="/CV" element={
 				<>
 				<CV />
+				<Footer />
+				</>
+			}>
+              </Route>
+			  <Route path="/About" element={
+				<>
+				<AboutMe />
+				<Footer />
 				</>
 			}>
               </Route>
