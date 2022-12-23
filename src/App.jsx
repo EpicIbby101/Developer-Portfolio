@@ -5,7 +5,7 @@ import Contact from "./components/Contact";
 import Portfolio from "./components/Portfolio";
 import Timeline from "./components/Timeline";
 import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes,  } from "react-router-dom";
 import CV from "./components/CV";
 import AboutMe from "./components/About";
 
@@ -80,31 +80,39 @@ function App() {
           <Navbar />
           <div className="max-w-5xl w-11/12 mx-auto">
             <Routes>
-			<Route path="/Home" element={
-				<>
-				<Intro />
-                <Portfolio />
-                <Timeline />
-                <Contact />
-                <Footer />
-				</>
-			}>
-              </Route>
-			  <Route path="/CV" element={
-				<>
-				<CV />
-				<Footer />
-				</>
-			}>
-              </Route>
-			  <Route path="/About" element={
-				<>
-				<AboutMe />
-				<Footer />
-				</>
-			}>
-              </Route>
-			  
+              <Route
+              exact
+                path="/Home"
+                element={
+                  <>
+                    <Intro />
+                    <Portfolio />
+                    <Timeline />
+                    <Contact />
+                    <Footer />
+                  </>
+                }
+              ></Route>
+              <Route
+              exact
+                path="/CV"
+                element={
+                  <>
+                    <CV />
+                    <Footer />
+                  </>
+                }
+              ></Route>
+              <Route
+              exact
+                path="/About"
+                element={
+                  <>
+                    <AboutMe />
+                    <Footer />
+                  </>
+                }
+              ></Route>
             </Routes>
           </div>
         </div>

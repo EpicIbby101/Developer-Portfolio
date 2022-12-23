@@ -1,8 +1,9 @@
 import React from "react";
-import { Link } from 'react-router-dom'
+import { Link, BrowserRouter } from 'react-router-dom'
 
 const Navbar = () => {
   return (
+  
     <div className="fixed flex justify-between items-center h-16 sm:h-16 md:h-16 z-30 bg-white/80 dark:bg-gray-700/80 backdrop-blur w-full shadow-md transition duration-500">
       <span className="relative m-7 z-30 font-bold text-3xl">Welcome To My Portfolio</span>
       <div className="relative decoration-none m-16 md:w-auto hidden sm:flex">
