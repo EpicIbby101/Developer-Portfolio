@@ -18,8 +18,7 @@ function Intro() {
         I'm a full-stack developer looking to break into the tech industry
         <br />-<br />
         This website is built to showcase the skills and experience I've gained
-        over the past few months. My projects can be found further down the
-        page.
+        over the past few months. My projects contact form can be found at the bottom of the page.
         <br />
       </p>
 
