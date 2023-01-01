@@ -1,13 +1,10 @@
-import React, { useEffect, useState } from "react";
-import Intro from "./components/Intro";
-import Footer from "./components/Footer";
-import Contact from "./components/Contact";
-import Portfolio from "./components/Portfolio";
-import Timeline from "./components/Timeline";
+import React, { useEffect, useState } from 'react';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Intro from './components/Intro';
+import Portfolio from './components/Portfolio';
+import Timeline from './components/Timeline';
 import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Route, Routes,  } from "react-router-dom";
-import CV from "./components/CV";
-import AboutMe from "./components/About";
 
 function App() {
   const [theme, setTheme] = useState(null);
@@ -71,54 +68,23 @@ function App() {
       <button
         type="button"
         onClick={handleThemeSwitch}
-        className="fixed p-2 z-40 right-6 top-3 bg-violet-300 dark:bg-orange-300 text-lg rounded-md"
+        className="fixed z-10 right-7 top-4 bg-violet-300 dark:bg-orange-300 text-lg p-1 rounded-md"
       >
-        {theme === "dark" ? sun : moon}
+        {theme === 'dark' ? sun : moon}
       </button>
-      <Router>
-        <div className="bg-white dark:bg-stone-800 dark:text-stone-300 text-stone-900 min-h-full font-inter">
-          <Navbar />
-          <div className="max-w-5xl w-11/12 mx-auto">
-            <Routes>
-              <Route
-              exact
-                path="/Home"
-                element={
-                  <>
-                    <Intro />
-                    <Portfolio />
-                    <Timeline />
-                    <Contact />
-                    <Footer />
-                  </>
-                }
-              ></Route>
-              <Route
-              exact
-                path="/CV"
-                element={
-                  <>
-                    <CV />
-                    <Footer />
-                  </>
-                }
-              ></Route>
-              <Route
-              exact
-                path="/About"
-                element={
-                  <>
-                    <AboutMe />
-                    <Footer />
-                  </>
-                }
-              ></Route>
-            </Routes>
-          </div>
+      <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
+        <Navbar/>
+        <div className="max-w-5xl w-11/12 mx-auto">
+          <Intro />
+          <Portfolio />
+          <Timeline />
+          <Contact />
+          <Footer />
         </div>
-      </Router>
-    </>
-  );
-}
+      </div>
+     </>
+    )
+  }
+  
 
 export default App;
