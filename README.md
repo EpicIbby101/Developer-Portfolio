@@ -17,11 +17,3 @@ A minimalist portfolio built on React to showcase my skills in Front-end web dev
 Click the link below to view my portfolio:
 
 https://kevingrittner.com/
-
-
-## To-Do List
-
-- Check onSnapshot function for realtime updates
-- Check email timing sort
-- Fix some css
-- Fix (required) message when composing email
