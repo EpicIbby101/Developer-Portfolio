@@ -1,6 +1,6 @@
 export default [
     {
-        title: 'Gmail Clone 📨',
+        title: 'Gmail Clone 📨 (Firestore Expired)',
         imgUrl: 'assets/Gmail.png',
         stack: ['ReactJS', 'Redux', 'Express'],
         link: 'https://clone-ad263.web.app/',
