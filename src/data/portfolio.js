@@ -6,10 +6,10 @@ export default [
         link: 'https://clone-ad263.web.app/',
     },
     {
-        title: 'Tic-Tac-Toe 🎮',
-        imgUrl: 'assets/TicTac.png',
-        stack: ['ReactJS', 'NodeJS', 'Stream.io'],
-        link: 'https://github.com/EpicIbby101/tic-tac-toe',
+        title: 'Media Sharing App 📸',
+        imgUrl: 'assets/Sharebee.png',
+        stack: ['ReactJS', 'NodeJS', 'Sanity'],
+        link: 'https://sharebee-374512.web.app/login',
     },
     {
         title: 'Calculator App 📱',
