@@ -2,9 +2,9 @@ export default [
     {
         year: '2022',
         title: 'Began Studying Computer Science',
-        duration: '3 months',
+        duration: '6 months',
         details: 
-            'I have dabbled in code a bit before, but only started seriously studying to become a software engineer since about September 2022, investing all my time and efforts into learning the essentials of both front and back end development',
+            'I have dabbled in code a bit before, but only started seriously studying to become a software engineer since about July 2022, investing all my time and efforts into learning the essentials of both front and back end development',
     },
     {
         year: '2021',
