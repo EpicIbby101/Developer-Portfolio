@@ -6,5 +6,5 @@ export const images = [
   "./public/assets/moon.jpg",
   "./public/assets/Space Jellies.jpg",
   "./public/assets/Temple Finalised.jpg",
-  "./public/assets/Ibby2.png"
+
 ];
