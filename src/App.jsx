@@ -5,6 +5,8 @@ import Intro from './components/Intro';
 import Portfolio from './components/Portfolio';
 import Timeline from './components/Timeline';
 import Navbar from "./components/Navbar";
+import ImageCarousel from './components/ImageCarousel';
+
 
 function App() {
   const [theme, setTheme] = useState(null);
@@ -77,6 +79,9 @@ function App() {
         <div className="max-w-5xl w-11/12 mx-auto">
           <Intro />
           <Portfolio />
+          <div className='container mx-auto'>
+          <ImageCarousel />
+          </div>
           <Timeline />
           <Contact />
           <Footer />
