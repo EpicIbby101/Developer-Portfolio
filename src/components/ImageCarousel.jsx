@@ -1,22 +1,11 @@
 import React, { useState } from "react";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
-// import { images } from "../data/carouselImages";
+import { images } from "../data/carouselImages";
 
-
-const images = [
-  "./public/assets/Neon Yang.png",
-  "./public/assets/nawaf.png",
-  "./public/assets/pnl.png",
-  "./public/assets/Melancholy Darker.png",
-  "./public/assets/moon.jpg",
-  "./public/assets/Space Jellies.jpg",
-  "./public/assets/Temple Finalised.jpg",
-  "./public/assets/Ibby2.png"
-];
 
 const ImageCarousel = () => {
-  const [currentIndex, setCurrentIndex] = React.useState(0);
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   const prevSlide = () => {
     const resetIndex = currentIndex === 0;
