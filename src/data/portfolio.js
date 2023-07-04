@@ -12,9 +12,9 @@ export default [
         link: 'https://sharebee-374512.web.app/login',
     },
     {
-        title: 'Calculator App 📱',
-        imgUrl: 'assets/calc.png',
-        stack: ['HTML', 'CSS', 'ReactJS'],
-        link: 'https://calculator-app-b8664.web.app/',
+        title: 'Timezone Calculator ⌚',
+        imgUrl: 'assets/Timezone.png',
+        stack: ['HTML', 'CSS', 'NextJS'],
+        link: 'https://timezoneapp-sepia.vercel.app/',
     },
 ]
