@@ -3,7 +3,6 @@ import React from "react";
 function Intro() {
   return (
     <div className="min-h-screen flex items-center justify-center flex-col text-center pt-20 pb-6">
-
       <h1 className="text-5xl md:text-7xl mb-1 md:mb-3 font-bold dark:text-white mt-7 z-10">
         Kevin Grittner
       </h1>
@@ -18,10 +17,10 @@ function Intro() {
       <p className="text-sm max-w-xl mb-6 font-bold z-10">
         Combining Creativity with Technical Expertise to Build Innovative Apps
         <br />-<br />
-       My goal as a developer is to build applications that are intuitive,
+        My goal as a developer is to build applications that are intuitive,
         responsive, and user-friendly. I believe that technology has the power
         to transform industries and improve people's lives, and I'm excited to
-        be a part of that transformation as a full-stack developer. 
+        be a part of that transformation as a full-stack developer.
         <br />
       </p>
       <h2 className="text-4xl md:text-4xl mb-1 md:mb-3 font-bold dark:text-white mt-7 underline">
@@ -62,6 +61,15 @@ function Intro() {
           <img
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
             alt="javascript"
+            width="40"
+            height="40"
+          />{" "}
+        </a>
+        <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
+          {" "}
+          <img
+            src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg"
+            alt="nextjs"
             width="40"
             height="40"
           />{" "}
