@@ -1,16 +1,16 @@
 export default [
     {
         year: '2022 - Present',
-        title: 'Began Studying Computer Science',
-        duration: '8 months',
+        title: 'Freelance Web Developer and Personal Projects',
+        duration: '1 Year',
         details: 
-            'After a short holiday and a lengthy conversation with a friend who is currently already a great software engineer, I decided to dedicate all of my time into studying Full-Stack Web Development. It was a rocky road to be sure but by December I had become increasingly proficient in both frontend and backend technologies; building a solid foundation in JavaScript, React and NodeJS as well as HTML and CSS. From there it was all projects and furthering my understanding of the tech industry. I am currently looking for my next opportunity to shine and perhaps lend my experience to a great team in the professional world',
+            'Over the course of one year, I actively pursued freelance web development opportunities and engaged in personal coding projects to further enhance my skills and experience. Through these endeavors, I honed my abilities as a full-stack web developer, working independently to deliver exceptional solutions to clients and exploring innovative ideas through personal projects. During my freelance engagements, I successfully collaborated with various clients to develop and enhance websites, create e-commerce platforms, and build custom web applications. Utilizing my expertise in React, Next.js, and other relevant technologies, I designed and implemented responsive user interfaces, while ensuring seamless integration with back-end systems and databases.',
     },
     {
         year: '2021 - 2022',
-        title: 'Administrator/ Support Assistant and Content Creator',
+        title: 'Administrator/ Web Developer and Support Assistant',
         duration: '1 Year',
-        details: 'I was responsible for elevating our company website with collaborative Wordpress and PHP updates, increasing SEO visibility and user experience. I also helped design a lot of content for the systems that were shown on TVs in the hospitality and healthcare industry as well as configure them before installation. Lastly I aided in boosting revenue for established businesses by 20% through creative marketing strategies and targeted sales. It was at this job that I started to slowly get into tech and programming, but I would not invest a lot of time into it until I left the company.'
+        details: 'I was responsible for elevating our company website with collaborative Wordpress and PHP updates, increasing SEO visibility and user experience. I also helped design a lot of content for the systems that were shown on TVs in the hospitality and healthcare industry as well as configure them before installation. Lastly I aided in boosting revenue for established businesses by 20% through creative marketing strategies and targeted sales as well as maintain company website with Wordpress, PHP, HTML, CSS, and JavaScript to ensure a seamless user experience.'
     },
     {
         year: '2018 - 2021',
