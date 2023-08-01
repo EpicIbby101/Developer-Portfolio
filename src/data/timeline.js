@@ -1,10 +1,10 @@
 export default [
     {
         year: '2022 - Present',
-        title: 'Freelance Web Developer and Personal Projects',
+        title: 'Full-time studies and participation in a Front-end bootcamp',
         duration: '1 Year',
         details: 
-            'Over the course of one year, I actively pursued freelance web development opportunities and engaged in personal coding projects to further enhance my skills and experience. Through these endeavors, I honed my abilities as a full-stack web developer, working independently to deliver exceptional solutions to clients and exploring innovative ideas through personal projects. During my freelance engagements, I successfully collaborated with various clients to develop and enhance websites, create e-commerce platforms, and build custom web applications. Utilizing my expertise in React, Next.js, and other relevant technologies, I designed and implemented responsive user interfaces, while ensuring seamless integration with back-end systems and databases.',
+            'Enrolled in the prestigious full-time Fullstack Web Development Bootcamp at the University of Birmingham. During this immersive experience, I honed my skills in building dynamic and responsive web applications using cutting-edge technologies. I delved into the world of React and Next.js, mastering their intricacies and leveraging them to create modern, user-friendly interfaces. Throughout the program, I embraced a comprehensive fullstack approach, gaining proficiency in both frontend and backend development. This intense bootcamp provided me with the expertise and confidence needed to excel in the ever-evolving field of web development. ',
     },
     {
         year: '2021 - 2022',
