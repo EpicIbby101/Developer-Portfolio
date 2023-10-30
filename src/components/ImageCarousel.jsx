@@ -23,6 +23,15 @@ const ImageCarousel = () => {
       <h2 className="flex text-4xl md:text-4xl mb-10 md:mb-10 font-bold dark:text-white mt-10 underline items-center justify-center">
         My Digital Artwork
       </h2>
+      <div className="text-center mb-6">
+        <p>
+          I'm also a graphics designer/ photo editor in my free time, unleashing
+          my creative edge helps me take my mind of the more tedious things in
+          life.
+          <br /> The below are just a few of my recent projects I've been working
+          on.
+        </p>
+      </div>
       <div className="flex items-center justify-center">
         <button
           className="bg-gray-500 text-white rounded-full p-0 w-9 h-9 mr-2"
@@ -34,7 +43,7 @@ const ImageCarousel = () => {
           {images.map((image, index) => {
             const slideClass =
               index >= currentIndex && index <= currentIndex + 3
-                ? "opacity-100 w-64 mx-3 shadow-md"
+                ? "opacity-100 w-80 mx-3 shadow-md"
                 : "opacity-0 w-0 mx-0";
             const displayClass =
               index === currentIndex ? "block md:hidden" : "hidden md:block";
