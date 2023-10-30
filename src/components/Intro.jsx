@@ -6,7 +6,7 @@ function Intro() {
       <h1 className="text-5xl md:text-7xl mb-1 md:mb-3 font-bold dark:text-white mt-7 z-10">
         Kevin Grittner
       </h1>
-      <p className="text-base md:text-xl mb-3 font-medium z-10">
+      <p className="text-base md:text-2xl mb-3 font-medium z-10">
         Software Engineer & Web Developer
       </p>
       <img

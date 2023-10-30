@@ -35,7 +35,7 @@ const ImageCarousel = () => {
           {images.map((image, index) => {
             const slideClass =
               index >= currentIndex && index <= currentIndex + 3
-                ? "opacity-100 w-60 mx-3 transition-opacity duration-300 ease-in"
+                ? "opacity-100 w-64 mx-3 transition-opacity duration-300 ease-in"
                 : "opacity-0 w-0 mx-0 transition-opacity duration-300 ease-out";
             const displayClass =
               index === currentIndex
