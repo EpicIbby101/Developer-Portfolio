@@ -68,7 +68,7 @@ function Intro() {
         <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
           {" "}
           <img
-            className="bg-"
+            className="bg-white p-1 rounded-full mt-2"
             src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg"
             alt="nextjs"
             width="40"
