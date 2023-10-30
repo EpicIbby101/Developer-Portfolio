@@ -3,7 +3,6 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import { images } from "../data/carouselImages";
 
-
 const ImageCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -20,7 +19,7 @@ const ImageCarousel = () => {
   };
 
   return (
-    <div>
+    <div className="container mx-auto py-6">
       <h2 className="flex text-4xl md:text-4xl mb-10 md:mb-10 font-bold dark:text-white mt-10 underline items-center justify-center">
         My Digital Artwork
       </h2>
@@ -31,20 +30,19 @@ const ImageCarousel = () => {
         >
           <ArrowBackIosNewIcon />
         </button>
-        <div className="flex flex-wrap md:flex-nowrap overflow-hidden">
+        <div className="flex flex-wrap md:flex-nowrap overflow-hidden justify-center items-center">
           {images.map((image, index) => {
             const slideClass =
               index >= currentIndex && index <= currentIndex + 3
-                ? "opacity-100 w-64 mx-3 transition-opacity duration-300 ease-in"
-                : "opacity-0 w-0 mx-0 transition-opacity duration-300 ease-out";
+                ? "opacity-100 w-64 mx-3 shadow-md"
+                : "opacity-0 w-0 mx-0";
             const displayClass =
-              index === currentIndex
-                ? "block md:hidden"
-                : "hidden md:block";
+              index === currentIndex ? "block md:hidden" : "hidden md:block";
+
             return (
               <img
                 key={index}
-                className={`${slideClass} ${displayClass}`}
+                className={`${slideClass} ${displayClass} transition-opacity duration-300 ease-in`}
                 src={image}
                 alt={`Slide ${index}`}
               />
