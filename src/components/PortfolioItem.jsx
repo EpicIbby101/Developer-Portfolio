@@ -1,5 +1,5 @@
 import React from 'react';
-import Earth from '/assets/earth.jpg';
+import DD01 from '/assets/DD01.png';
 import Fitness from '/assets/fitness.jpg';
 import Social from '/assets/social-media.jpg';
 import Recipe from '/assets/recipe.jpg';
@@ -8,11 +8,11 @@ import Weather from '/assets/weather.png';
 const PortfolioItem = () => {
   const projectList = [
     {
-      title: 'Timezone App',
-      description: 'Calculate best times for people from two different timezones to communicate, without disrupting sleep schedules',
-      image: Earth,
-      link: 'https://timezoneapp-sepia.vercel.app/',
-      link2: 'https://github.com/EpicIbby101/timezoneapp'
+      title: 'Dine & Discover',
+      description: 'Explore restaurants and holiday destinations using AI',
+      image: DD01,
+      link: 'https://epicibby101.github.io/DD-01/',
+      link2: 'https://github.com/EpicIbby101/DD-01'
 
     },
     {
