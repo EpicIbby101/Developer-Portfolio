@@ -61,7 +61,7 @@ return (
           className={`bg-white dark:bg-gray-900 rounded-none p-4 shadow-md transition-transform hover:scale-105 ${
             index === 0 ? 'md:col-span-2' : ''
           }`}
-          style={{ borderBottom: '4px solid #FFA500' }}
+          style={{ borderBottom: '4px solid #db0774' }}
         >
           <a href={project.link} target="_blank" rel="noreferrer">
             <div className="relative h-64 overflow-hidden rounded-md">
