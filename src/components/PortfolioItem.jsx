@@ -35,7 +35,7 @@ const PortfolioItem = () => {
       title: 'Recipe App',
       description: 'An app that has a variety of tasty recipes to try',
       image: Recipe,
-      link: 'https://example.com/project4',
+      link: 'https://recipe-app-c0c25.web.app/',
       link2: 'https://github.com/EpicIbby101/recipe-app'
 
     },
