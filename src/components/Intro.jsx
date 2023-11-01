@@ -31,6 +31,7 @@ function Intro() {
       <h2 className="text-4xl md:text-4xl mb-1 md:mb-3 font-bold dark:text-white mt-7 underline">
         Main Skills
       </h2>
+      
       <h4 className="text-3xl md:text-3xl mb-1 md:mb-3 font-bold dark:text-white mt-7">
         💻 Technologies 💻
       </h4>
