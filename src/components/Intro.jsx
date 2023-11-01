@@ -6,7 +6,7 @@ function Intro() {
   return (
     <div
       className="min-h-screen flex items-center justify-center flex-col text-center pt-20 pb-6 mb-20"
-      style={{ backgroundImage, backgroundPosition: 'center center', }}
+      style={{ backgroundImage, backgroundPosition: "center center" }}
     >
       <h1 className="text-5xl md:text-7xl mb-1 md:mb-3 font-bold dark:text-white mt-7 z-10">
         Hi I'm <span className="text-pink-500">Kevin</span>
@@ -39,6 +39,7 @@ function Intro() {
           href="https://www.w3schools.com/css/"
           target="_blank"
           rel="noreferrer"
+          className="hover:scale-125 transform transition-transform"
         >
           {" "}
           <img
@@ -48,7 +49,12 @@ function Intro() {
             height="40"
           />{" "}
         </a>
-        <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.w3.org/html/"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:scale-125 transform transition-transform"
+        >
           {" "}
           <img
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
@@ -61,6 +67,7 @@ function Intro() {
           href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
           target="_blank"
           rel="noreferrer"
+          className="hover:scale-125 transform transition-transform"
         >
           {" "}
           <img
@@ -70,7 +77,12 @@ function Intro() {
             height="40"
           />{" "}
         </a>
-        <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
+        <a
+          href="https://nextjs.org/"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:scale-125 transform transition-transform"
+        >
           {" "}
           <img
             className="bg-white p-1 rounded-full mt-2"
@@ -80,7 +92,12 @@ function Intro() {
             height="40"
           />{" "}
         </a>
-        <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+        <a
+          href="https://reactjs.org/"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:scale-125 transform transition-transform"
+        >
           {" "}
           <img
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
@@ -89,7 +106,12 @@ function Intro() {
             height="40"
           />{" "}
         </a>
-        <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
+        <a
+          href="https://tailwindcss.com/"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:scale-125 transform transition-transform"
+        >
           {" "}
           <img
             src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
@@ -98,7 +120,12 @@ function Intro() {
             height="40"
           />{" "}
         </a>
-        <a href="https://vuejs.org/" target="_blank" rel="noreferrer">
+        <a
+          href="https://vuejs.org/"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:scale-125 transform transition-transform"
+        >
           {" "}
           <img
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg"
@@ -107,7 +134,12 @@ function Intro() {
             height="40"
           />{" "}
         </a>
-        <a href="https://nodejs.org" target="_blank" rel="noreferrer">
+        <a
+          href="https://nodejs.org"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:scale-125 transform transition-transform"
+        >
           {" "}
           <img
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
@@ -116,7 +148,12 @@ function Intro() {
             height="40"
           />{" "}
         </a>
-        <a href="https://redux.js.org" target="_blank" rel="noreferrer">
+        <a
+          href="https://redux.js.org"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:scale-125 transform transition-transform"
+        >
           {" "}
           <img
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
@@ -131,7 +168,12 @@ function Intro() {
         ⚒️ Tools ⚒️
       </h4>
       <p className="flex space-x-3">
-        <a href="https://www.blender.org/" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.blender.org/"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:scale-125 transform transition-transform"
+        >
           {" "}
           <img
             src="https://download.blender.org/branding/community/blender_community_badge_white.svg"
@@ -140,7 +182,12 @@ function Intro() {
             height="40"
           />{" "}
         </a>
-        <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.docker.com/"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:scale-125 transform transition-transform"
+        >
           {" "}
           <img
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg"
@@ -149,7 +196,12 @@ function Intro() {
             height="40"
           />{" "}
         </a>
-        <a href="https://firebase.google.com/" target="_blank" rel="noreferrer">
+        <a
+          href="https://firebase.google.com/"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:scale-125 transform transition-transform"
+        >
           {" "}
           <img
             src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
@@ -158,7 +210,12 @@ function Intro() {
             height="40"
           />{" "}
         </a>
-        <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+        <a
+          href="https://git-scm.com/"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:scale-125 transform transition-transform"
+        >
           {" "}
           <img
             src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
@@ -167,7 +224,12 @@ function Intro() {
             height="40"
           />{" "}
         </a>
-        <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.photoshop.com/en"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:scale-125 transform transition-transform"
+        >
           {" "}
           <img
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg"
@@ -176,7 +238,12 @@ function Intro() {
             height="40"
           />{" "}
         </a>
-        <a href="https://postman.com" target="_blank" rel="noreferrer">
+        <a
+          href="https://postman.com"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:scale-125 transform transition-transform"
+        >
           {" "}
           <img
             src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
@@ -185,7 +252,12 @@ function Intro() {
             height="40"
           />{" "}
         </a>
-        <a href="https://unity.com/" target="_blank" rel="noreferrer">
+        <a
+          href="https://unity.com/"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:scale-125 transform transition-transform"
+        >
           {" "}
           <img
             src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg"

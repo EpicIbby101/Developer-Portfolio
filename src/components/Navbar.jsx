@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="fixed flex justify-between items-center h-16 sm:h-16 md:h-16 z-20 bg-white/80 dark:bg-gradient-to-r from-gray-700 to-pink-600 backdrop-blur w-full shadow-md transition duration-500">
+    <div className="fixed flex justify-between items-center h-16 sm:h-16 md:h-16 z-40 bg-white/80 dark:bg-gradient-to-r from-gray-700 to-pink-600 backdrop-blur w-full shadow-md transition duration-500">
       <div className=" flex items-center mr-20 space-x-5 ">
 
         <a href="https://github.com/EpicIbby101" target="_blank">
