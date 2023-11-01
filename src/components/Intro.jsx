@@ -1,20 +1,25 @@
 import React from "react";
+import backgroundImage from "/assets/Synth.png";
 
 function Intro() {
+  const backgroundImage = "url('/assets/Synth.png')";
   return (
-    <div className="min-h-screen flex items-center justify-center flex-col text-center pt-20 pb-6">
+    <div
+      className="min-h-screen flex items-center justify-center flex-col text-center pt-20 pb-6 mb-20"
+      style={{ backgroundImage, backgroundPosition: 'center center', }}
+    >
       <h1 className="text-5xl md:text-7xl mb-1 md:mb-3 font-bold dark:text-white mt-7 z-10">
-        Kevin Grittner
+        Hi I'm <span className="text-pink-500">Kevin</span>
       </h1>
       <p className="text-base md:text-2xl mb-3 font-medium z-10">
-        Software Engineer & Web Developer
+        I'm a Software Engineer & Web Developer
       </p>
       <img
         src="/assets/Picsart2.png"
         alt="Kevin"
         className="rounded-full w-72 mt-3 mb-7 z-10"
       />
-      <p className="text-sm max-w-xl mb-6 font-bold z-10">
+      <p className="text-md max-w-3xl mb-6 font-bold z-10">
         Combining Creativity with Technical Expertise to Build Innovative Apps
         <br />-<br />
         My goal as a developer is to build applications that are intuitive,
@@ -190,7 +195,7 @@ function Intro() {
           />{" "}
         </a>
       </p>
-      <div className="h-1 bg-gray-700 w-full opacity-70 mt-5 mb-5" />
+      {/* <div className="h-1 bg-gray-700 w-full opacity-70 mt-5 mb-5" /> */}
     </div>
   );
 }

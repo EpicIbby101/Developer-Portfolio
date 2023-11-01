@@ -73,11 +73,11 @@ function App() {
       </button>
       <div
         className={`${
-          theme === "dark" ? "bg-stone-900 text-stone-300" : "bg-white text-stone-900 dark:bg-stone-900 dark:text-stone-300"
+          theme === "dark" ? "bg-primary text-stone-300" : "bg-white text-stone-900 dark:bg-stone-900 dark:text-stone-300"
         } min-h-screen font-inter transition-all`}
       >
         <Navbar />
-        <div className="w-11/12 mx-auto">
+        <div className="w-full mx-auto">
           <Intro />
           <PortfolioItem />
           <ImageCarousel />
