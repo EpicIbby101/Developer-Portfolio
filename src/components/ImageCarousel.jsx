@@ -19,14 +19,14 @@ const ImageCarousel = () => {
   };
 
   return (
-    <div className="container mx-auto py-6">
-      <h2 className="flex text-4xl md:text-4xl mb-10 md:mb-10 font-bold dark:text-white mt-10 underline items-center justify-center">
+    <div className="container mx-auto py-0">
+      <h2 className="flex text-4xl md:text-4xl mb-10 md:mb-5 font-bold dark:text-white mt-10 underline items-center justify-center">
         My Digital Artwork
       </h2>
-      <div className="text-center mb-6">
+      <div className="text-center mb-8">
         <p>
-          I'm also a graphics designer/ photo editor in my free time, unleashing
-          my creative edge helps me take my mind of the more tedious things in
+          I'm also a graphics designer/photo editor in my free time, unleashing
+          my creative edge helps me take my mind off the more tedious things in
           life.
           <br /> The below are just a few of my recent projects I've been working
           on.
@@ -39,19 +39,19 @@ const ImageCarousel = () => {
         >
           <ArrowBackIosNewIcon />
         </button>
-        <div className="flex flex-wrap md:flex-nowrap overflow-hidden justify-center items-center">
+        <div className="flex flex-wrap md:flex-nowrap justify-center items-center">
           {images.map((image, index) => {
             const slideClass =
               index >= currentIndex && index <= currentIndex + 3
-                ? "opacity-100 w-80 mx-3 shadow-md"
-                : "opacity-0 w-0 mx-0";
+                ? "opacity-100 w-80 mx-3 shadow-md transform scale-100 transition-transform duration-300 ease-in"
+                : "opacity-0 w-0 mx-0 transform scale-75 transition-transform duration-300 ease-in";
             const displayClass =
               index === currentIndex ? "block md:hidden" : "hidden md:block";
 
             return (
               <img
                 key={index}
-                className={`${slideClass} ${displayClass} transition-opacity duration-300 ease-in`}
+                className={`${slideClass} ${displayClass} hover:scale-110`}
                 src={image}
                 alt={`Slide ${index}`}
               />

@@ -9,7 +9,7 @@ function Intro() {
       style={{ backgroundImage, backgroundPosition: "center center" }}
     >
       <h1 className="text-5xl md:text-7xl mb-1 md:mb-3 font-bold dark:text-white mt-7 z-10">
-        Hi I'm <span className="text-pink-500">Kevin</span>
+        Hi, I'm <span className="text-pink-500">Kevin</span>
       </h1>
       <p className="text-base md:text-2xl mb-3 font-medium z-10">
         I'm a Software Engineer & Web Developer
