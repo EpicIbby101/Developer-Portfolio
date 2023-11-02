@@ -8,7 +8,7 @@ function Intro() {
       className="min-h-screen flex items-center justify-center flex-col text-center pt-20 pb-6 mb-20"
       style={{ backgroundImage, backgroundPosition: "center center" }}
     >
-      <h1 className="text-5xl md:text-7xl mb-1 md:mb-3 font-bold dark:text-white mt-7 z-10">
+      <h1 className="text-5xl md:text-7xl mb-1 md:mb-3 font-bold dark:text-white mt-5 z-10">
         Hi, I'm <span className="text-pink-500">Kevin</span>
       </h1>
       <p className="text-base md:text-2xl mb-3 font-medium z-10">
